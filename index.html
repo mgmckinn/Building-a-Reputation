@@ -12,16 +12,19 @@
     <!--this is the header at the top of the page showing sections about company-->
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <li>
-            <a href="assets/images/search-engine-optimization.jpg">Search Engine Optimization</a>
-        </li>
-        <li>
-            <a href=" #online-reputation-management ">Online Reputation Management</a>
-        </li>
-        <li>
-            <a href="#social-media-marketing ">Social Media Marketing</a>
-        </li>
-        </ul>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management ">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing ">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
 
@@ -30,30 +33,34 @@
     </section>
 
     <!--Benefits listed on the right side of page-->
-    <section class="benefits " id="benefits-list " class="benefits-list ">
-        <h3>Lead Generation</h3>
-        <img src=" ./assets/images/lead-generation.png " alt="gear turning into money " />
-        <p>
-            Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-        </p>
-        <!--Brand Awareness right side-->
 
-        <h3>Brand Awareness</h3>
-        <img src="./assets/images/brand-awareness.png " alt="business man with lightbulb head " />
-        <p>
-            Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-        </p>
-        <!--Cost Management right side-->
+    <aside class="benefits">
+        <section class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png " />
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </section>
+        <section class="benefit-brand">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png " />
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </section>
+        <section class="benefit-cost ">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png "></img>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </section>
+    </aside>
 
-        <h3>Cost Management</h3>
-        <img src="./assets/images/cost-management.png " alt="gears behind money working for you " /></img>
-        <p>
-            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-        </p>
-    </section>
     <!--Main Information on the Page-->
-    <main>
-        <section id="search-engine-optimization " class="search-engine-optimization ">
+    <main id="main-titles" class="main-titles">
+        <section class="search-engine-optimization ">
             <img src="./assets/images/search-engine-optimization.jpg " class="float-left " />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -62,7 +69,8 @@
             </p>
         </section>
 
-        <section id="online-reputation-management " class="online-reputation-management ">
+
+        <section id="main-titles " class="online-reputation-management ">
             <img src="./assets/images/online-reputation-management.jpg " class="float-right " />
             <h2>Online Reputation Management</h2>
             <p>
@@ -79,6 +87,7 @@
             </p>
         </section>
     </main>
+
     <!--footer-->
     <footer class="footer ">
         <h2>Made with ❤️️ by Horiseon</h2>
